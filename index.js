@@ -341,13 +341,13 @@ console.log(argTimesTwo(2));
 */
 function carMaker(num) {
   /* code here */
-    let marker = {
+    let maker = {
       odometer: num,
       drive(dist){
         return this.odometer += dist;
       }
     }
-    return marker;
+    return maker;
 }
 console.log(carMaker(90).drive(10));
 
